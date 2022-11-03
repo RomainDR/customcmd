@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d98d001c-4b0d-43fa-bd2e-c82df8ff4812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{8c81b3d8-0ae8-451e-bd48-592050f1a3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{db25409b-7431-467b-bac7-382c16db9347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Time">
+      <UniqueIdentifier>{fa9df0de-67ca-4838-9d4a-9684b5ce6ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{dddef353-46a8-4276-85cd-cfddf52e0f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Manager">
+      <UniqueIdentifier>{9f788022-ccf0-44be-83ba-86f83ff1a0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Cls">
+      <UniqueIdentifier>{1ac8a8c5-2c67-4825-a3a6-3a1a22e90d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Drivers">
+      <UniqueIdentifier>{2f524b54-651a-49ce-8531-7c07df78df77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Echo">
+      <UniqueIdentifier>{db5c2301-8f9f-4b77-8786-8af5352e5e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Exit">
+      <UniqueIdentifier>{21eeef60-a33e-43c7-9560-dea59f578bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Tasklist">
+      <UniqueIdentifier>{1e09d90e-9a75-4e13-87dd-4ddcf7321d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Type">
+      <UniqueIdentifier>{9bf91b13-3bf5-4871-b691-c623195e1500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\PathManager">
+      <UniqueIdentifier>{702fe33f-1ec9-4711-805d-24f72197c5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Cd">
+      <UniqueIdentifier>{2f338179-8b1f-4676-ac14-d91fafedaca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Tree">
+      <UniqueIdentifier>{9e1d9a83-31b3-44bf-8dce-cf3fc4ffa176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CustomCmd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCmd.cpp">
+      <Filter>Command\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>Command\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ClsCmd.cpp">
+      <Filter>Command\Cls</Filter>
+    </ClCompile>
+    <ClCompile Include="DriversCmd.cpp">
+      <Filter>Command\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoCmd.cpp">
+      <Filter>Command\Echo</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitCmd.cpp">
+      <Filter>Command\Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="TasklistCmd.cpp">
+      <Filter>Command\Tasklist</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCmd.cpp">
+      <Filter>Command\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Utils\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CdCmd.cpp">
+      <Filter>Command\Cd</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCmd.cpp">
+      <Filter>Command\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="LsCmd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCmd.h">
+      <Filter>Command\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Command\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsCmd.h">
+      <Filter>Command\Cls</Filter>
+    </ClInclude>
+    <ClInclude Include="DriversCmd.h">
+      <Filter>Command\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="EchoCmd.h">
+      <Filter>Command\Echo</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitCmd.h">
+      <Filter>Command\Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="TasklistCmd.h">
+      <Filter>Command\Tasklist</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCmd.h">
+      <Filter>Command\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Utils\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CdCmd.h">
+      <Filter>Command\Cd</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCmd.h">
+      <Filter>Command\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="LsCmd.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
